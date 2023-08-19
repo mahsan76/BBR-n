@@ -1,0 +1,72 @@
+Warning: Totals are computed as cumulative sum * step size,
+so spurious values wreck havoc with the results.
+Results 2023-02-13 07:11:59.695386 - Dctcp:
+ Ping (ms) ICMP:
+  Data points: 347
+  Min:         2.100000 ms
+  Median:      14.100000 ms
+  99th %:      64.024000 ms
+  Max:         71.400000 ms
+  Mean:        16.250317 ms
+  Std dev:     12.860343
+  Variance:    165.388425
+ TCP upload:
+  Data points: 352
+  Total:       15703.032450 Mbits
+  Min:         167.650000 Mbits/s
+  Median:      264.340000 Mbits/s
+  99th %:      349.456600 Mbits/s
+  Max:         378.010000 Mbits/s
+  Mean:        261.450000 Mbits/s
+  Std dev:     35.558155
+  Variance:    1264.382369
+ TCP upload::tcp_cwnd:
+  Data points: 255
+  Total:       69767.098836 
+  Min:         41.000000 
+  Median:      964.000000 
+  99th %:      1594.920000 
+  Max:         1602.000000 
+  Mean:        1155.619608 
+  Std dev:     323.096490
+  Variance:    104391.341576
+ TCP upload::tcp_delivery_rate:
+  Data points: 255
+  Total:       15379.924298 
+  Min:         26.600000 
+  Median:      256.800000 
+  99th %:      380.700000 
+  Max:         387.500000 
+  Mean:        254.636078 
+  Std dev:     66.483438
+  Variance:    4420.047561
+ TCP upload::tcp_pacing_rate:
+  Data points: 255
+  Total:       68145.968278 
+  Min:         165.500000 
+  Median:      715.800000 
+  99th %:      5702.624000 
+  Max:         6293.200000 
+  Mean:        1102.010196 
+  Std dev:     1215.123772
+  Variance:    1476525.782484
+ TCP upload::tcp_rtt:
+  Data points: 254
+  Total:       1387.774599 
+  Min:         3.252000 
+  Median:      20.603000 
+  99th %:      74.168300 
+  Max:         95.473000 
+  Mean:        23.322913 
+  Std dev:     15.156647
+  Variance:    229.723946
+ TCP upload::tcp_rtt_var:
+  Data points: 254
+  Total:       38.083500 
+  Min:         0.005000 
+  Median:      0.373000 
+  99th %:      5.403000 
+  Max:         9.328000 
+  Mean:        0.626512 
+  Std dev:     1.024940
+  Variance:    1.050503

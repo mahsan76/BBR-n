@@ -1,0 +1,72 @@
+Warning: Totals are computed as cumulative sum * step size,
+so spurious values wreck havoc with the results.
+Results 2023-02-13 07:23:01.278693 - Veno:
+ Ping (ms) ICMP:
+  Data points: 352
+  Min:         2.010000 ms
+  Median:      16.600000 ms
+  99th %:      59.512000 ms
+  Max:         373.000000 ms
+  Mean:        19.500000 ms
+  Std dev:     24.345456
+  Variance:    592.701209
+ TCP upload:
+  Data points: 352
+  Total:       16042.532820 Mbits
+  Min:         175.000000 Mbits/s
+  Median:      268.650000 Mbits/s
+  99th %:      350.999200 Mbits/s
+  Max:         421.920000 Mbits/s
+  Mean:        266.960000 Mbits/s
+  Std dev:     35.081723
+  Variance:    1230.727312
+ TCP upload::tcp_cwnd:
+  Data points: 255
+  Total:       82505.446082 
+  Min:         30.000000 
+  Median:      1556.000000 
+  99th %:      1653.380000 
+  Max:         1655.000000 
+  Mean:        1370.380392 
+  Std dev:     337.520975
+  Variance:    113920.408243
+ TCP upload::tcp_delivery_rate:
+  Data points: 255
+  Total:       15588.816815 
+  Min:         49.600000 
+  Median:      262.800000 
+  99th %:      377.756000 
+  Max:         438.500000 
+  Mean:        258.504314 
+  Std dev:     68.244191
+  Variance:    4657.269668
+ TCP upload::tcp_pacing_rate:
+  Data points: 255
+  Total:       65106.312055 
+  Min:         197.100000 
+  Median:      821.400000 
+  99th %:      4646.790000 
+  Max:         5572.300000 
+  Mean:        1074.360784 
+  Std dev:     901.347680
+  Variance:    812427.640109
+ TCP upload::tcp_rtt:
+  Data points: 255
+  Total:       1508.367953 
+  Min:         3.106000 
+  Median:      21.717000 
+  99th %:      74.008880 
+  Max:         111.626000 
+  Mean:        25.196173 
+  Std dev:     16.309043
+  Variance:    265.984892
+ TCP upload::tcp_rtt_var:
+  Data points: 255
+  Total:       34.112201 
+  Min:         0.003000 
+  Median:      0.391000 
+  99th %:      4.018160 
+  Max:         8.575000 
+  Mean:        0.567020 
+  Std dev:     0.848642
+  Variance:    0.720194

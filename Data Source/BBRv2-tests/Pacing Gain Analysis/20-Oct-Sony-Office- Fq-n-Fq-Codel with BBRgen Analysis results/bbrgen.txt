@@ -1,0 +1,145 @@
+Warning: Totals are computed as cumulative sum * step size,
+so spurious values wreck havoc with the results.
+Results 2022-10-20 03:27:09.232413 - BBRgen-Sony-Office:
+ Ping (ms) ICMP:
+  Data points: 364
+  Mean:        23.900000 ms
+  Median:      23.100000 ms
+  Min:         2.560000 ms
+  Max:         97.200000 ms
+  Std dev:     14.321356
+  Variance:    205.101242
+ TCP upload:
+  Data points: 364
+  Total:       3089.520210 Mbits
+  Mean:        51.140000 Mbits/s
+  Median:      52.570000 Mbits/s
+  Min:         27.990000 Mbits/s
+  Max:         90.360000 Mbits/s
+  Std dev:     5.849511
+  Variance:    34.216779
+ TCP upload::tcp_bbr_bw:
+  Data points: 244
+  Total:       4126.346448 
+  Mean:        68.124091 
+  Median:      67.912628 
+  Min:         34.539576 
+  Max:         89.381448 
+  Std dev:     6.776386
+  Variance:    45.919413
+ TCP upload::tcp_bbr_cwnd_gain:
+  Data points: 244
+  Total:       119.933850 
+  Mean:        1.978580 
+  Median:      2.000000 
+  Min:         1.000000 
+  Max:         2.773440 
+  Std dev:     0.163043
+  Variance:    0.026583
+ TCP upload::tcp_bbr_mrtt:
+  Data points: 244
+  Total:       137.899185 
+  Mean:        2.273533 
+  Median:      2.010000 
+  Min:         1.555000 
+  Max:         31.871000 
+  Std dev:     2.384832
+  Variance:    5.687423
+ TCP upload::tcp_bbr_pacing_gain:
+  Data points: 244
+  Total:       61.319631 
+  Mean:        1.011367 
+  Median:      1.000000 
+  Min:         0.750000 
+  Max:         2.773440 
+  Std dev:     0.167718
+  Variance:    0.028129
+ TCP upload::tcp_cwnd:
+  Data points: 244
+  Total:       12941.247038 
+  Mean:        213.672131 
+  Median:      214.000000 
+  Min:         4.000000 
+  Max:         368.000000 
+  Std dev:     56.903707
+  Variance:    3238.031846
+ TCP upload::tcp_delivery_rate:
+  Data points: 244
+  Total:       2839.759449 
+  Mean:        46.762516 
+  Median:      48.333024 
+  Min:         4.982576 
+  Max:         72.600384 
+  Std dev:     11.235973
+  Variance:    126.247087
+ TCP upload::tcp_pacing_rate:
+  Data points: 244
+  Total:       4124.425567 
+  Mean:        68.078138 
+  Median:      67.458732 
+  Min:         34.194184 
+  Max:         135.648184 
+  Std dev:     11.620996
+  Variance:    135.047538
+ TCP upload::tcp_rtt:
+  Data points: 243
+  Total:       1538.569788 
+  Mean:        25.500305 
+  Median:      23.637000 
+  Min:         3.200000 
+  Max:         64.890000 
+  Std dev:     12.547092
+  Variance:    157.429516
+ TCP upload::tcp_rtt_var:
+  Data points: 243
+  Total:       132.668661 
+  Mean:        2.156708 
+  Median:      1.762000 
+  Min:         0.195000 
+  Max:         12.961000 
+  Std dev:     1.521800
+  Variance:    2.315875
+ qdisc_stats_localhost::backlog_bytes:
+  Data points: 350
+  Total:       524881.353814 
+  Mean:        7167.708571 
+  Median:      6056.000000 
+  Min:         0.000000 
+  Max:         28766.000000 
+  Std dev:     7690.289116
+  Variance:    59140546.692212
+ qdisc_stats_localhost::backlog_pkts:
+  Data points: 350
+  Total:       71.744629 
+  Mean:        0.980000 
+  Median:      1.000000 
+  Min:         0.000000 
+  Max:         3.000000 
+  Std dev:     1.021008
+  Variance:    1.042457
+ qdisc_stats_localhost::backlog_requeues:
+  No data.
+ qdisc_stats_localhost::dropped:
+  No data.
+ qdisc_stats_localhost::overlimits:
+  No data.
+ qdisc_stats_localhost::requeues:
+  No data.
+ qdisc_stats_localhost::sent_bytes:
+  Data points: 350
+  Total:       15228516456.217020 
+  Mean:        209434168.045714 
+  Median:      210790396.000000 
+  Min:         321216.000000 
+  Max:         405632548.000000 
+  Std dev:     135286431.715164
+  Variance:    18302418606221788.000000
+ qdisc_stats_localhost::sent_pkts:
+  Data points: 350
+  Total:       10242768.955357 
+  Mean:        140863.537143 
+  Median:      141761.000000 
+  Min:         2563.000000 
+  Max:         270619.000000 
+  Std dev:     89459.850589
+  Variance:    8003064867.494336
