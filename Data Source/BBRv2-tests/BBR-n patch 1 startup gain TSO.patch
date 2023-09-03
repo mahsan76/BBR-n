@@ -19,8 +19,8 @@ index 1f68d2f..00d12ff 100644
  static const int bbr_pacing_gain[] = {
 -	BBR_UNIT * 5 / 4,	/* probe for more available bw */
 -	BBR_UNIT * 3 / 4,	/* drain queue and/or yield bw to other flows */
-+	BBR_UNIT * 16 / 5,	/* probe for more available bw */
-+	BBR_UNIT * 2 / 5,	/* drain queue and/or yield bw to other flows */
++	BBR_UNIT * 7.5 / 5,	/* probe for more available bw */
++	BBR_UNIT * 4.5 / 5,	/* drain queue and/or yield bw to other flows */
  	BBR_UNIT, BBR_UNIT, BBR_UNIT,	/* cruise at 1.0*bw to utilize pipe, */
  	BBR_UNIT, BBR_UNIT, BBR_UNIT	/* without creating excess queue... */
  };
@@ -34,7 +34,7 @@ index 1f68d2f..00d12ff 100644
  /* To estimate if BBR_STARTUP mode (i.e. high_gain) has filled pipe... */
  /* If bw has increased significantly (1.25x), there may be more bw available: */
 -static const u32 bbr_full_bw_thresh = BBR_UNIT * 5 / 4;
-+static const u32 bbr_full_bw_thresh = BBR_UNIT * 16 / 5;
++static const u32 bbr_full_bw_thresh = BBR_UNIT * 4.5 / 5;
  /* But after 3 rounds w/o significant bw growth, estimate pipe is full: */
  static const u32 bbr_full_bw_cnt = 3;
  
