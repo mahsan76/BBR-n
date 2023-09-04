@@ -34,7 +34,7 @@ index 1f68d2f..00d12ff 100644
  /* To estimate if BBR_STARTUP mode (i.e. high_gain) has filled pipe... */
  /* If bw has increased significantly (1.25x), there may be more bw available: */
 -static const u32 bbr_full_bw_thresh = BBR_UNIT * 5 / 4;
-+static const u32 bbr_full_bw_thresh = BBR_UNIT * 4.5 / 5;
++static const u32 bbr_full_bw_thresh = BBR_UNIT * 7.5 / 5;
  /* But after 3 rounds w/o significant bw growth, estimate pipe is full: */
  static const u32 bbr_full_bw_cnt = 3;
  
